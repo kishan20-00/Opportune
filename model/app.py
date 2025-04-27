@@ -19,6 +19,7 @@ CORS(app)
 download('punkt')
 download('stopwords')
 download('wordnet')
+download('punkt_tab')
 
 # Initialize the lemmatizer and stop words
 lemmatizer = WordNetLemmatizer()

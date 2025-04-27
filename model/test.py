@@ -1,6 +1,4 @@
 import requests
-import nltk
-nltk.download('punkt')
 
 # URL of the Flask app
 url = "http://127.0.0.1:5002/check_cv"  # Update if running on a different host/port
